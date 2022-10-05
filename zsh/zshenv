@@ -1,0 +1,3 @@
+ #パス
+export PATH="$PATH:$HOME/.local/bin"
+export PATH=~/.npm-global/bin:$PATH
