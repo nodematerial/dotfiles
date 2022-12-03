@@ -10,9 +10,10 @@ compinit
 autoload -U promptinit
 promptinit
 # promptを独自で変更
-PROMPT='%F{10}%n@%m%f:%F{cyan}%c%f  '
+PROMPT='%F{3}%n@%m%f:%F{cyan}%c%f  '
 #ls 色
 alias ls='ls --color=auto'
+alias zshrc='vim .zshrc'
 #日本語
 export LANG=C.UTF-8
 # 履歴ファイルの保存先
