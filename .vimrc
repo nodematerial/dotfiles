@@ -32,6 +32,10 @@ set number
 " material-color 設定
 syntax enable
 colorscheme monokai
+" tab 設定
+:set expandtab
+:set ts=4
+:set shiftwidth=4
 
 
 " netrw 設定
